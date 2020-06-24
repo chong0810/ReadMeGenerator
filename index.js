@@ -5,19 +5,19 @@ const fs = require("fs");
 const questions = [
   {
     type: "input",
-    message: "what is your GitHub username?",
-    name: "Username",
+    message: "What is your GitHub username?",
+    name: "UserName",
+  },
+  {
+    type: "input",
+    message: "What is your email address?",
+    name: "Email",
   },
 
   {
     type: "input",
     message: "What is the title for your project?",
     name: "Title",
-  },
-  {
-    type: "input",
-    message: "What is the title for your README.md?",
-    name: "ReadMeTitle",
   },
   {
     type: "input",
@@ -47,17 +47,13 @@ const questions = [
   },
   {
     type: "input",
-    message: "How do you test this App?",
+    message: "What command do you use to test this App?",
     name: "Test",
-  },
-  {
-    type: "input",
-    message: "Please leave a question for the users",
-    name: "Questions",
-  },
+  }
 ];
 
 function writeToFile(fileName, data) {
+
 
 
 }
