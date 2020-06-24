@@ -1,9 +1,9 @@
-
+// imports
 const inquirer = require("inquirer");
 const generatorMarkdown = require("./generateMarkdown")
 const fs = require("fs"); 
 
-
+// Questions asked to the user
 const questions = [
   {
     type: "input",
@@ -54,7 +54,7 @@ const questions = [
   }
 ];
 
-
+// Writing to a file 
 function writeToFile(fileName, data) {
 
 fs.writeFile("./demo/" + fileName, data, function(err) {
@@ -67,7 +67,7 @@ fs.writeFile("./demo/" + fileName, data, function(err) {
 }
 
 
-
+// initialization function
 function init() {
   inquirer.prompt(questions)
   .then(function(data) {
@@ -76,5 +76,5 @@ function init() {
 }
 
 
-
+// run the app
 init();
