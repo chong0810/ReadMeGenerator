@@ -54,7 +54,12 @@ const questions = [
 
 function writeToFile(fileName, data) {
 
-
+fs.writeFile("./demo" + fileName,data, function(err) {
+  if (err) {
+    return console.log(err);
+  }
+  console.log ("Successfully wrote: " + fileName);
+})
 
 }
 
