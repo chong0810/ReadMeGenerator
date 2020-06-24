@@ -1,3 +1,5 @@
+
+// This is a good README template
 function generateMarkdown(data) {
   return`
 # ${data.Title}
