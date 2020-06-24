@@ -1,5 +1,5 @@
 const inquirer = require("inquirer");
-
+const generatorMarkdown = require("./generateMarkdown")
 const fs = require("fs"); 
 
 const questions = [
@@ -13,6 +13,11 @@ const questions = [
     type: "input",
     message: "What is the title for your project?",
     name: "Title",
+  },
+  {
+    type: "input",
+    message: "What is the title for your README.md?",
+    name: "ReadMeTitle",
   },
   {
     type: "input",
@@ -52,7 +57,10 @@ const questions = [
   },
 ];
 
-function writeToFile(fileName, data) {}
+function writeToFile(fileName, data) {
+
+
+}
 
 
 
