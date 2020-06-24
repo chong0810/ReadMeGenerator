@@ -1,6 +1,8 @@
+
 const inquirer = require("inquirer");
 const generatorMarkdown = require("./generateMarkdown")
 const fs = require("fs"); 
+
 
 const questions = [
   {
@@ -26,7 +28,7 @@ const questions = [
   },
   {
     type: "input",
-    message: "What needs to be installed to run this APP?",
+    message: "What necessary dependencies must be installed to run this app?",
     name: "Installation",
   },
   {
@@ -52,9 +54,10 @@ const questions = [
   }
 ];
 
+
 function writeToFile(fileName, data) {
 
-fs.writeFile("./demo" + fileName,data, function(err) {
+fs.writeFile("./demo/" + fileName, data, function(err) {
   if (err) {
     return console.log(err);
   }
@@ -65,6 +68,13 @@ fs.writeFile("./demo" + fileName,data, function(err) {
 
 
 
-function init() {}
+function init() {
+  inquirer.prompt(questions)
+  .then(function(data) {
+    writeToFile("DemoREADME.md", generatorMarkdown(data));
+  })
+}
+
+
 
 init();
