@@ -23,7 +23,7 @@ const questions = [
   },
   {
     type: "input",
-    message: "Please give description of your project",
+    message: "Please give description of your project.",
     name: "Description",
   },
   {
@@ -38,7 +38,7 @@ const questions = [
   },
   {
     type: "input",
-    message: "What licensed was used?",
+    message: "What license was used for this README?",
     name: "License",
   },
 
@@ -57,7 +57,7 @@ const questions = [
 // Writing to a file 
 function writeToFile(fileName, data) {
 
-fs.writeFile(fileName, data, function(err) {
+fs.writeFile("./demo/"+fileName, data, function(err) {
   if (err) {
     return console.log(err);
   }
@@ -71,7 +71,7 @@ fs.writeFile(fileName, data, function(err) {
 function init() {
   inquirer.prompt(questions)
   .then(function(data) {
-    writeToFile("README.md", generatorMarkdown(data));
+    writeToFile("DemoREADME.md", generatorMarkdown(data));
   })
 }
 

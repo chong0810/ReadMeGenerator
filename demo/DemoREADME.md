@@ -1,9 +1,10 @@
 
-# DemoREADME
-[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/username/DemoREADME)
+# Random Project Name
+[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/randomUserName/Random Project Name)
+
 # Description
 
-This is a demo for readme generator
+This is a random descriptiion.
 
 # Table of Contents 
 
@@ -21,25 +22,25 @@ This is a demo for readme generator
 
 # Installation
 
-The following necessary dependencies must be installed to run the application properly: inquirer and dotevn
+The following necessary dependencies must be installed to run the application properly: dotenv and inquirer
 
 # Usage
 
-​This application is used for To show user how to use this app
+​This application is used for To create random stuff
 
 # License
 
-This project is licensed under the MIT license.
+This project is license under the MIT license.
 
 # Contributing
 
-​Contributors: Random contributor
+​Contributors: Random Contributor and awesome person
 
 # Tests
 
-To run tests, you need to run the following command: node index.js
+To run tests, you need to run the following command: node index,js
 
 # Questions
 
-If you have any questions about the repo, open an issue or contact username directly username@gcompany.com.
+If you have any questions about the repo, open an issue or contact randomUserName directly randomEMail@address.com.
 
