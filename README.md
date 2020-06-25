@@ -44,3 +44,4 @@ To run tests, you need to run the following command: node index.js
 
 If you have any questions about the repo, open an issue or contact chong0810 directly hongchangyeon@gmail.com.
 
+[![README Generator](http://img.youtube.com/vi/lURR0SW71YY/0.jpg)](http://www.youtube.com/watch?v=lURR0SW71YY "README Generator")
