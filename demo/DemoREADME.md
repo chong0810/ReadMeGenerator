@@ -26,7 +26,7 @@ The following necessary dependencies must be installed to run the application pr
 
 # Usage
 
-​This application is used for To create random stuff
+​This application is used for creating random stuff
 
 # License
 

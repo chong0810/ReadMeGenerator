@@ -26,7 +26,7 @@ The following necessary dependencies must be installed to run the application pr
 
 # Usage
 
-​This application is used for This app is used for creating a README.md file for any project.
+This app is used for creating a README.md file for any project.
 
 # License
 
